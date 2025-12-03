@@ -9,7 +9,7 @@ $(document).ready(function () {
     // Se vuoi che si fermi:
     if (timer <= 0) {
       clearInterval(countdown);
-      $(".score").text("Tempo scaduto!");
+      $(".score").text("Time expired!");
     }
   }, 1000);
 });
