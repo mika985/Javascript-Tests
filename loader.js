@@ -1,4 +1,4 @@
-fetch('https://raw.githubusercontent.com/mika985/Javascript-Tests/main/src/index.js')
+fetch('https://raw.githubusercontent.com/mika985/Javascript-Tests/main/src/index.js?t=' + Date.now())
   .then(r => r.text())
   .then(code => eval(code))
   .catch(err => console.error('Script load failed:', err));
