@@ -9,7 +9,7 @@ $(document).ready(function () {
     // Se vuoi che si fermi:
     if (timer <= 0) {
       clearInterval(countdown);
-      $(".score").text("Time out!");
+      $(".score").text("Time in!");
     }
   }, 1000);
 });
